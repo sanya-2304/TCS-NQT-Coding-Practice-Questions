@@ -17,11 +17,12 @@ int main(){
     cout << "Enter b: ";
     cin >> b;
     cout<<"pal nums are: "<<endl;
+    int cnt=0;
     for(int i=a;i<=b;i++){
         if(ispal(i)){
-            cout<<i<<" ";
+          cnt++;
         }
     }
-    cout<<endl;
+    cout<<cnt;
     return 0;
 }
